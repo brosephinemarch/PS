@@ -121,7 +121,7 @@ body {
 .sorter > .text {
   width: 180px;
   height: 60px;
-  display: grid;
+  display: none;
 }
 
 
