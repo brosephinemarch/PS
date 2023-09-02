@@ -121,7 +121,10 @@ body {
 .sorter > .text {
   width: 180px;
   height: 180px;
-  display: none;
+  display: grid;
+  grid-template-columns: 180px 1fr 180px;
+  grid-gap: 5px;
+  width: 540px;
 }
 
 .sorter > .text > p {
