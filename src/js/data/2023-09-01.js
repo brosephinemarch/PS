@@ -15,7 +15,7 @@ dataSet[dataSetVersion].options = [
       { name: "Season 4 Contestants (Non-Finalists)", key: "S4all" },
     ]
   },
- {
+{
     name: "Filter by Stage Enemy Appearances",
     key: "stage",
     tooltip: "Check this to restrict to characters that appear in certain stages as enemies.",
@@ -39,7 +39,7 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to remove all characters without canonical names.",
     checked: false
   }
-];];
+];
 
 dataSet[dataSetVersion].characterData = [
   {
