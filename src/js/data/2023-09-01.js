@@ -3,10 +3,10 @@ dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
   {
-    name: "Filter by Series Entry",
-    key: "series",
+    name: "Filter by Season",
+    key: "season",
     tooltip: "Check this to restrict to certain series.",
-    checked: false,
+    checked: true,
     sub: [
       { name: "Books and CDs", key: "book" },
       { name: "The Highly Responsive to Prayers", tooltip: "01 - Reiiden", key: "HRtP" },
