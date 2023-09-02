@@ -16,28 +16,19 @@ dataSet[dataSetVersion].options = [
     ]
   },
   {
-    name: "Filter by Stage Enemy Appearances",
-    key: "stage",
-    tooltip: "Check this to restrict to characters that appear in certain stages as enemies.",
-    checked: false,
-    sub: [ { name: "Stage 1", key: "st1" }, { name: "Stage 2", key: "st2" }, { name: "Stage 3", key: "st3" }, { name: "Stage 4", key: "st4" }, { name: "Stage 5/Penultimate", tooltip: "Stage 4 in 5-stage games, and Stage 8 in 9-stage games.", key: "st5" }, { name: "Stage 6/Final", key: "st6" }, { name: "Stage EX/Phantasm", key: "ex" }
+    name: "Filter by Voice Type",
+    key: "type",
+    tooltip: "Filter to restrict to singers of a certain voice type/music background.",
+    checked: true,
+    sub: [ { name: "Classically Trained (성악)", key: "classical" }, { name: "Musical Actor (뮤지컬배우)", key: "musical" }, { name: "Sorikkun (소리꾼)", key: "gugak" }, { name: "Rock/Pop Vocals (로커/팝 보컬)", key: "rockpop" }
     ]
   },
   {
-    name: "Remove PC-98 Duplicates",
-    key: "pc98",
-    tooltip: "Check this to remove PC-98 characters with a Windows counterpart."
-  },
-  {
-    name: "Remove Non-Girls",
-    key: "notgirl",
-    tooltip: "Check this to remove all non-female characters."
-  },
-  {
-    name: "Remove Nameless Characters",
-    key: "nameless",
-    tooltip: "Check this to remove all characters without canonical names.",
-    checked: false
+    name: "Filter by Vocal Range",
+    key: "range",
+    tooltip: "Filter to restrict to singers of a certain vocal range.",
+    checked: true,
+    sub: [ { name: "Bass (베이스)", key: "bass" }, { name: "Bass Baritone (베이스 바리톤)", key: "bb" }, { name: "Baritone (바리톤)", key: "baritone" }, { name: "Tenor (테너)", key: "tenor" }, { name: "Countertenor (카운터테너)", key: "counter"    ]
   }
 ];
 
