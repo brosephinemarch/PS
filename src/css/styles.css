@@ -8,7 +8,6 @@ body {
   flex-flow: column nowrap;
   align-items: center;
   margin-top: 1em;
-  overflow-wrap: break-word;
 }
 
 .progress {
@@ -133,6 +132,8 @@ body {
   text-align: center;
   font-size: 0.8em;
   line-height: 1.5em;
+  overflow-wrap: break-word;
+
 }
 
 .sorter > .left {
