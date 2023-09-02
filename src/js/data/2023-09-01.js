@@ -44,19 +44,21 @@ dataSet[dataSetVersion].options = [
 
 dataSet[dataSetVersion].characterData = [
   {
-    name: "Hakurei Reimu",
+    name: "Ko Hoonjeong",
     img: "c5DqpgX.png",
     opts: {
-      series: [ "book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "MoF", "SA", "UFO", "soku", "DS", "TD", "HM", "DDC", "ISC", "ULiL", "LoLK", "AoCF", "HSiFS", "VD", "WBaWC", "UM" ],
-      stage: ["st4"]
+      season: [ "S1" ],
+      type: ["classical", "musical"],
+      range: ["baritone"]
     }
   },
   {
-    name: "Kirisame Marisa",
+    name: "Kim Hyunsoo",
     img: "tJnkSzK.png",
     opts: {
-      series: [ "book", "EoSD", "PCB", "IaMP", "IN", "PoFV", "StB", "SWR", "MoF", "SA", "UFO", "soku", "DS", "GFW", "TD", "HM", "DDC", "ISC", "ULiL", "LoLK", "AoCF", "HSiFS", "VD", "WBaWC", "UM" ],
-      stage: ["st4", "ex"]
+      season: [ "S1" ],
+      type: ["classical"],
+      range: ["tenor"]
     }
   },
   {
