@@ -22,9 +22,9 @@ dataSet[dataSetVersion].options = [
     checked: false,
     sub: [ 
       { name: "Classical (성악가)", key: "classical" }, 
-      { name: "Musical actor", key: "musical" }, 
-      { name: "Sorikkun", key: "gugak" }, 
-      { name: "Rock/Pop", key: "rockpop" }
+      { name: "Musical actor (뮤지컬배우)", key: "musical" }, 
+      { name: "Sorikkun (소리꾼)", key: "gugak" }, 
+      { name: "Rock/Pop (로커/팝 보컬)", key: "rockpop" }
     ]
   },
 {
