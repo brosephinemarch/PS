@@ -114,6 +114,8 @@ body {
   width: 180px;
   height: 180px;
   margin: auto;
+  +width: 304px;
++height: 375px;
   grid-row: 1 / 7;
   cursor: pointer;
 }
