@@ -6,7 +6,7 @@ dataSet[dataSetVersion].options = [
     name: "Filter by Season",
     key: "season",
     tooltip: "Check this to choose which seasons' contestants to rank.",
-    checked: true,
+    checked: false,
     sub: [
       { name: "Season 1 Finalists", key: "S1" },
       { name: "Season 2 Finalists", key: "S2" },
@@ -19,7 +19,7 @@ dataSet[dataSetVersion].options = [
     name: "Filter by Voice Type",
     key: "type",
     tooltip: "Filter to restrict to singers of a certain voice type/music background.",
-    checked: true,
+    checked: false,
     sub: [ { name: "Classically Trained (성악)", key: "classical" }, { name: "Musical Actor (뮤지컬배우)", key: "musical" }, { name: "Sorikkun (소리꾼)", key: "gugak" }, { name: "Rock/Pop Vocals (로커/팝 보컬)", key: "rockpop" }
     ]
   },
@@ -27,7 +27,7 @@ dataSet[dataSetVersion].options = [
     name: "Filter by Vocal Range",
     key: "range",
     tooltip: "Filter to restrict to singers of a certain vocal range.",
-    checked: true,
+    checked: false,
     sub: [ { name: "Bass (베이스)", key: "bass" }, { name: "Bass Baritone (베이스 바리톤)", key: "bb" }, { name: "Baritone (바리톤)", key: "baritone" }, { name: "Tenor (테너)", key: "tenor" }, { name: "Countertenor (카운터테너)", key: "counter"    ]
   }
  {
