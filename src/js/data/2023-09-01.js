@@ -45,7 +45,7 @@ dataSet[dataSetVersion].options = [
 dataSet[dataSetVersion].characterData = [
   {
     name: "Ko Hoonjeong",
-    img: "pusheen copy.jpg",
+    img: "tJnkSzK.png",
     opts: {
       season: [ "S1" ],
       type: ["classical", "musical"],
