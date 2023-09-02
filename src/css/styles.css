@@ -40,9 +40,7 @@ body {
 
 .sorter {
   margin: 0px auto;
-  display: grid;
-  grid-template-columns: 180px 1fr 180px;
-  grid-gap: 5px;
+  display: calc(100%-10px)
   width: 540px;
 }
 
