@@ -43,9 +43,7 @@ body {
   display: grid;
   grid-template-columns: 180px 1fr 180px;
   grid-gap: 5px;
--width: 420px;
-  +grid-template-columns: 1fr 1fr 1fr;
-
+width: 540px;
 }
 
 .button {
@@ -116,8 +114,6 @@ body {
   width: 180px;
   height: 180px;
   margin: auto;
-  +width: 304px;
-+height: 375px;
   grid-row: 1 / 7;
   cursor: pointer;
 }
