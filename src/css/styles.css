@@ -111,15 +111,17 @@ width: 540px;
 }
 
 .sorter > .image {
-  width: 300px;
-  height: 400px;
+  -width: 120px;
+-height: 180px;
++width: 304px;
++height: 375px;
   margin: auto;
   grid-row: 1 / 7;
   cursor: pointer;
 }
 
 .sorter > .text {
-  width: 180px;
+  width: 300px;
   height: 60px;
   display: none;
 }
