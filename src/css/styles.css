@@ -8,6 +8,7 @@ body {
   flex-flow: column nowrap;
   align-items: center;
   margin-top: 1em;
+  overflow-wrap: break-word;
 }
 
 .progress {
