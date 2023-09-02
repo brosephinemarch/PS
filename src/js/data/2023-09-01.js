@@ -44,7 +44,8 @@ dataSet[dataSetVersion].options = [
 
 dataSet[dataSetVersion].characterData = [
   {
-    name: "Ko Hoonjeong\n(Forte di Quattro, Musical Actor/Classical - Baritone)\n고훈정\n(포르테 디 콰트로, 성악가/뮤지컬배우 - 바리톤) ",
+    name: "Ko Hoonjeong (고훈정) ",
+    tooltip: "Forte di Quattro, Musical Actor/Classical - Baritone; 포르테 디 콰트로, 성악가/뮤지컬배우 - 바리톤",
     img: "tJnkSzK.png",
     opts: {
       season: [ "S1" ],
