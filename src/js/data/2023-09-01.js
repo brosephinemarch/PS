@@ -28,11 +28,16 @@ dataSet[dataSetVersion].options = [
     ]
   },
 {
-    name: "Filter by Stage Enemy Appearances",
-    key: "stage",
-    tooltip: "Check this to restrict to characters that appear in certain stages as enemies.",
+    name: "Filter by Vocal Range",
+    key: "range",
+    tooltip: "Filter to restrict to singers of a certain vocal range.",
     checked: false,
-    sub: [ { name: "Stage 1", key: "st1" }, { name: "Stage 2", key: "st2" }, { name: "Stage 3", key: "st3" }, { name: "Stage 4", key: "st4" }, { name: "Stage 5/Penultimate", tooltip: "Stage 4 in 5-stage games, and Stage 8 in 9-stage games.", key: "st5" }, { name: "Stage 6/Final", key: "st6" }, { name: "Stage EX/Phantasm", key: "ex" }
+    sub: [ 
+      { name: "Bass (베이스)", key: "bass" }, 
+      { name: "Bass Baritone (베이스 바리톤)", key: "bb" }, 
+      { name: "Baritone (바리톤)", key: "baritone" }, 
+      { name: "Tenor (테너)", key: "tenor" }, 
+      { name: "Countertenor (카운터테너)", key: "counter" }
     ]
   },
  ];
