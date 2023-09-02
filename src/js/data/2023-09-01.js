@@ -62,20 +62,21 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Rumia",
+    name: "Son Taejin",
     img: "0YT7QlS.png",
     opts: {
-      series: ["book", "EoSD", "StB", "HM"],
-      stage: ["st1"]
+      season: [ "S1" ],
+      type: ["classical"],
+      range: ["bb"]
     }
   },
   {
-    name: "Daiyousei",
+    name: "Lee Byeori",
     img: "NWlZud3.png",
     opts: {
-      series: ["book", "EoSD"],
-      stage: ["st2", "ex"],
-      nameless: true
+      season: [ "S1" ],
+      type: ["classical"],
+      range: ["tenor"]
     },
   },
   {
