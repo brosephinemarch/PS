@@ -34,7 +34,7 @@ body {
 
 .progressfill {
   height: 20px;
-  background-color: lightgreen;
+  background-color: steelblue;
   width: 0%;
 }
 
@@ -111,16 +111,16 @@ body {
 }
 
 .sorter > .image {
-  width: 250px;
-  height: 250px;
+  width: 180px;
+  height: 180px;
   margin: auto;
   grid-row: 1 / 7;
   cursor: pointer;
 }
 
 .sorter > .text {
-  width: 250;
-  height: 125px;
+  width: 180;
+  height: 60px;
   display: none;
 }
 
