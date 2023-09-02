@@ -20,7 +20,11 @@ dataSet[dataSetVersion].options = [
     key: "type",
     tooltip: "Filter to restrict to singers of a certain voice type/music background.",
     checked: false,
-    sub: [ { name: "Classical", key: "classical" }, { name: "Musical actor", key: "musical" }, { name: "Sorikkun", key: "gugak" }, { name: "Rock/Pop", key: "rockpop" }
+    sub: [ 
+      { name: "Classical (성악가)", key: "classical" }, 
+      { name: "Musical actor", key: "musical" }, 
+      { name: "Sorikkun", key: "gugak" }, 
+      { name: "Rock/Pop", key: "rockpop" }
     ]
   },
 {
