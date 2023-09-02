@@ -126,7 +126,7 @@ body {
 
 .sorter > .text > p {
   margin: 0.5em 5px 0px;
-  width: calc(100%-10px);
+  width: 150px;
   text-align: center;
   font-size: 0.8em;
   line-height: 1.5em;
