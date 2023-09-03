@@ -45,7 +45,7 @@ dataSet[dataSetVersion].options = [
 dataSet[dataSetVersion].characterData = [
   {
     name: "Ko Hoonjeong (고훈정)\nForte di Quattro, Musical Actor/Classical - Baritone\n포르테 디 콰트로, 성악가/뮤지컬배우 - 바리톤",
-    img: "kohoonjeong.png",
+    img: "audreycrop.jpg",
     opts: {
       season: [ "S1" ],
       type: ["classical", "musical"],
@@ -72,7 +72,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Lee Byeori",
-    img: "NWlZud3.png",
+    img: "audreycrop.jpg",
     opts: {
       season: [ "S1" ],
       type: ["classical"],
