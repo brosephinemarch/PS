@@ -132,6 +132,7 @@ body {
 
 .sorter > .text > p {
   position: fixed;
+  left: 435px;
   margin: 0.5em 5px 0px;
   width: calc(100%-10px);
   text-align: center;
