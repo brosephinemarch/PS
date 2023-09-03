@@ -115,14 +115,14 @@ body {
   -width: 120px;
   -height: 180px;
   +width: 304px;
-  +height: 375px;
+  +height: 405px;
   margin: auto;
   grid-row: 1 / 7;
   cursor: pointer;
 }
 
 .sorter > .text {
-  width: 120px;
+  width: 225px;
   height: 60px;
   display: none;
 }
