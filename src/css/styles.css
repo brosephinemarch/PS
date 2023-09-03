@@ -43,8 +43,9 @@ body {
   display: grid;
   grid-template-columns: 120px 1fr 120px;
   grid-gap: 5px;
--width: 420px;
-+grid-template-columns: 1fr 1fr 1fr;
+  -width: 420px;
+  +grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 .button {
