@@ -44,7 +44,7 @@ body {
   grid-template-columns: 120px 1fr 120px;
   grid-gap: 5px;
   -width: 420px;
-  +grid-template-columns: 1fr 1fr 1fr;
+  +grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
 }
 
@@ -140,7 +140,7 @@ body {
 }
 
 .sorter > .left {
-  grid-column: 2 / 3;
+  grid-column: 1 / 2;
   position: relative;
   left: -30px;
   border: 1px solid #000000;
