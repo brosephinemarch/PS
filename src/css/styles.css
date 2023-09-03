@@ -131,7 +131,7 @@ body {
 
 
 .sorter > .text > p {
-  position: relative;
+  position: fixed;
   margin: 0.5em 5px 0px;
   width: calc(100%-10px);
   text-align: center;
@@ -142,7 +142,7 @@ body {
 .sorter > .left {
   grid-column: 1 / 2;
   position: fixed;
-  left: 30px
+  left: 30px;
   border: 1px solid #000000;
 }
 
