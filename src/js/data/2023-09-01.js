@@ -63,7 +63,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Son Taejin",
-    img: "0YT7QlS.png",
+    img: "audreycrop.jpg",
     opts: {
       season: [ "S1" ],
       type: ["classical"],
