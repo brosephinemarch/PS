@@ -54,7 +54,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kim Hyunsoo",
-    img: "tJnkSzK.png",
+    img: "audreycrop.jpg",
     opts: {
       season: [ "S1" ],
       type: ["classical"],
