@@ -113,8 +113,8 @@ body {
 }
 
 .sorter > .image {
-  -width: 1004px;
-  -height: 1000px;
+  -width: 120px;
+  -height: 180px;
   +width: 304px;
   +height: 375px;
   margin: auto;
