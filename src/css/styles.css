@@ -140,7 +140,7 @@ body {
 }
 
 .sorter > .left {
-  grid-column: 1 / 2;
+  grid-column: 0 / 1;
   border: 1px solid #000000;
 }
 
